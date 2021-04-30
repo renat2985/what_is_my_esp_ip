@@ -1,4 +1,4 @@
-# You and your ESP need to be on local network.
+# You and your ESP need to be one local network.
 
 
 ## 1 You need to upload this small sketch (what_is_my_esp_ip.ino) or GET this url http://onclick.lv/ip/get.php?mac="+WiFi.macAddress()+"&ip="+WiFi.localIP().toString();
