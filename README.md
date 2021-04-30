@@ -1,7 +1,7 @@
 # You can simply define the local IP of your ESP
 
 
-## 1 You need to upload a small sketch.
+## 1 You need to upload a small sketch (what_is_my_esp_ip.ino).
 ## 2 Open the site: http://www.onclick.lv/ip/
 ## 3 Turn on ESP
 
