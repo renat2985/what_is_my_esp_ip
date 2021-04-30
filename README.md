@@ -1,7 +1,7 @@
-# You can simply define the local IP of your ESP
+# You and your ESP need to be on local network.
 
 
-## 1 You need to upload a small sketch (what_is_my_esp_ip.ino).
+## 1 You need to upload this small sketch (what_is_my_esp_ip.ino) or GET this url http://onclick.lv/ip/get.php?mac="+WiFi.macAddress()+"&ip="+WiFi.localIP().toString();
 ## 2 Open the site: http://www.onclick.lv/ip/
 ## 3 Turn on ESP
 
