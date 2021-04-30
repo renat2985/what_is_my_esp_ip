@@ -2,6 +2,7 @@
 #include <ESP8266HTTPClient.h>
 const char* ssid = "yourNetworkName";
 const char* password = "yourNetworkPassword";
+String url = "http://onclick.lv/ip/get.php?mac="+WiFi.macAddress()+"&ip="+WiFi.localIP().toString();
 void setup () {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
@@ -13,11 +14,8 @@ void setup () {
 void loop() {
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
     HTTPClient http;  //Declare an object of class HTTPClient
-    http.begin("http://onclick.lv/ip/get.php?mac="+(String)WiFi.macAddress()+"&ip="+WiFi.localIP());
+    http.begin(url);
     int httpCode = http.GET();                                  //Send the request
-    if (httpCode > 0) { //Check the returning code
-      String payload = http.getString();   //Get the request response payload
-    }
     http.end();   //Close connection
   }
   delay(30000);    //Send a request every 30 seconds
