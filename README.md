@@ -9,11 +9,20 @@
 ![alt text](https://github.com/renat2985/what_is_my_esp_ip/raw/master/screen.png "Screen")
 
 
+# Projects that use our service
+
+- http://bitball.club (https://github.com/renat2985/bitball.club)
+
+- http://www.onclick.lv/radio/ (https://github.com/renat2985/esp8266-Radio)
+
+- LaserTag https://github.com/renat2985/laserTag
+
+
 
 ## :battery: Donation
 
 If you like this project, you can buy me a cup of coffee :coffee:
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/donate.png" width="700px">
+<img src="https://github.com/renat2985/renat2985/raw/main/donate/donate.png" width="100%">
 
 - PayPal [https://www.paypal.me/RKevrels](https://www.paypal.me/RKevrels/5)
