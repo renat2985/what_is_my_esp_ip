@@ -1,6 +1,6 @@
 # ESP IP Finder: Connect and Identify Your ESP Device
 
-![alt text](https://github.com/renat2985/what_is_my_esp_ip/raw/master/screen.png "Screen")
+![alt text](https://github.com/renat2985/what_is_my_esp_ip/raw/master/screen.gif "Screen")
 
 ### How it works:
 
