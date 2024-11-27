@@ -14,7 +14,9 @@
 - 1. Your device sends a **GET request** to our server, providing its **MAC address** and local **IP address**.  
 - 2. The server saves this data along with your **global IP address** for 30 minutes.  
 - 3. When you visit [http://www.onclick.lv/esp/](http://www.onclick.lv/esp/), the system checks if there is data with the same global IP address.  
-- 4. If a match is found, it displays the previously sent **MAC** and **IP address**.  
+- 4. If a match is found, it displays the previously sent **MAC** and **IP address**.
+ 
+ ⚠️ Here’s a little life hack: if you type [onclick.lv](http://www.onclick.lv/), into your browser, you’ll also be redirected to your device :)
 
 # Video: https://www.youtube.com/watch?v=7LHwY7bHGQo
 
